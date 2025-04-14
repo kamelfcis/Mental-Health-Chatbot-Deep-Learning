@@ -1,0 +1,457 @@
+[
+    {
+        "input": "I have trouble concentrating because of my anxiety.",
+        "response_en": "That must be difficult. Have you tried mindfulness exercises to stay focused?",
+        "response_ar": "لابد أن ذلك صعب. هل جربت تمارين اليقظة الذهنية للبقاء مركزًا؟"
+    },
+    {
+        "input": "I get really nervous when speaking in public.",
+        "response_en": "That's very common. Practicing in front of a mirror or with friends might help.",
+        "response_ar": "هذا شائع جدًا. قد يساعدك التدرب أمام المرآة أو مع الأصدقاء."
+    },
+    {
+        "input": "I often feel guilty for no reason.",
+        "response_en": "It's okay to feel that way, but remember to be kind to yourself. You're doing your best.",
+        "response_ar": "لا بأس أن تشعر بذلك، لكن تذكر أن تكون لطيفًا مع نفسك. أنت تفعل ما بوسعك."
+    },
+    {
+        "input": "I can't stop worrying about things I can't control.",
+        "response_en": "Worrying is natural, but focusing on what you *can* control can help reduce stress.",
+        "response_ar": "القلق أمر طبيعي، لكن التركيز على ما *يمكنك* التحكم فيه قد يساعد في تقليل التوتر."
+    },
+    {
+        "input": "I feel like people don’t like me.",
+        "response_en": "That sounds really hard. Sometimes our minds play tricks on us, but you are valued.",
+        "response_ar": "هذا يبدو صعبًا. أحيانًا تخدعنا عقولنا، لكنك شخص ذو قيمة."
+    },
+    {
+        "input": "I feel completely worthless.",
+        "response_en": "I'm really sorry you feel this way. You are valuable and deserve kindness and support.",
+        "response_ar": "أنا آسف جدًا لأنك تشعر بهذه الطريقة. أنت ذو قيمة وتستحق اللطف والدعم."
+    },
+    {
+        "input": "My thoughts keep racing, and I can't calm down.",
+        "response_en": "That can feel overwhelming. Have you tried deep breathing or writing your thoughts down?",
+        "response_ar": "قد يكون ذلك مرهقًا. هل جربت التنفس العميق أو كتابة أفكارك؟"
+    },
+    {
+        "input": "I feel unmotivated to do anything.",
+        "response_en": "Motivation comes and goes. Try setting small goals to get started.",
+        "response_ar": "الدافعية تأتي وتذهب. حاول تحديد أهداف صغيرة للبدء."
+    },
+    {
+        "input": "I get really sad in the evenings.",
+        "response_en": "Evenings can feel lonely. Maybe listening to calming music or calling a friend could help?",
+        "response_ar": "المساء قد يكون وقتًا يشعر فيه البعض بالوحدة. ربما يساعدك الاستماع لموسيقى هادئة أو الاتصال بصديق؟"
+    },
+    {
+        "input": "I feel overwhelmed by everything happening in my life.",
+        "response_en": "It sounds like you have a lot on your mind. Taking things one step at a time can help.",
+        "response_ar": "يبدو أن لديك الكثير في ذهنك. يمكن أن يساعدك التعامل مع الأمور خطوة بخطوة."
+    },
+    {
+        "input": "Sometimes I feel completely numb.",
+        "response_en": "I'm here for you. Have you been able to talk to someone about this?",
+        "response_ar": "أنا هنا من أجلك. هل تمكنت من التحدث مع شخص ما عن هذا؟"
+    },
+    {
+        "input": "I feel like I'm stuck in a cycle of negative thoughts.",
+        "response_en": "Negative thoughts can be tough. Challenging them with positive affirmations might help.",
+        "response_ar": "الأفكار السلبية قد تكون صعبة. قد يساعدك تحديها بتأكيدات إيجابية."
+    },
+    {
+        "input": "I had a really bad panic attack today.",
+        "response_en": "I'm sorry you went through that. Grounding techniques like 5-4-3-2-1 can help.",
+        "response_ar": "أنا آسف لأنك مررت بذلك. قد تساعدك تقنيات التثبيت مثل 5-4-3-2-1."
+    },
+    {
+        "input": "I'm afraid of being judged by others.",
+        "response_en": "That’s a common fear. Remember, people are usually more focused on themselves than judging others.",
+        "response_ar": "هذا خوف شائع. تذكر أن الناس عادة يركزون على أنفسهم أكثر من تركيزهم على الحكم على الآخرين."
+    },
+    {
+        "input": "I feel better after talking to you.",
+        "response_en": "I'm so glad to hear that! Talking about feelings is important.",
+        "response_ar": "أنا سعيد جدًا لسماع ذلك! التحدث عن المشاعر أمر مهم."
+    },
+    {
+        "input": "I finally had a good day today.",
+        "response_en": "That’s great! Cherish the good moments and keep building on them.",
+        "response_ar": "هذا رائع! استمتع باللحظات الجيدة واستمر في بنائها."
+    },
+    {
+        "input": "I'm feeling optimistic about my future.",
+        "response_en": "That’s wonderful! Keep believing in yourself and your journey.",
+        "response_ar": "هذا رائع! استمر في الإيمان بنفسك وبرحلتك."
+    },
+    {
+        "input": "I made progress in my therapy today!",
+        "response_en": "That’s amazing! Every step forward is a big achievement.",
+        "response_ar": "هذا مذهل! كل خطوة للأمام هي إنجاز كبير."
+    },
+    {
+        "input": "I have trouble concentrating because of my anxiety.",
+        "response_en": "That must be difficult. Have you tried mindfulness exercises to stay focused?",
+        "response_ar": "لابد أن ذلك صعب. هل جربت تمارين اليقظة الذهنية للبقاء مركزًا؟"
+    },
+    {
+        "input": "I keep overthinking small things.",
+        "response_en": "Overthinking can be exhausting. Try writing down your thoughts to get some clarity.",
+        "response_ar": "الإفراط في التفكير قد يكون مرهقًا. حاول كتابة أفكارك للحصول على بعض الوضوح."
+    },
+    {
+        "input": "I get nervous around people I don’t know.",
+        "response_en": "Social anxiety can be tough. Practicing small conversations might help you feel more comfortable.",
+        "response_ar": "القلق الاجتماعي قد يكون صعبًا. قد يساعدك التدرب على محادثات صغيرة لتشعر براحة أكثر."
+    },
+    {
+        "input": "I have constant negative thoughts.",
+        "response_en": "I'm sorry you're feeling this way. Challenging those thoughts with positive affirmations might help.",
+        "response_ar": "أنا آسف لأنك تشعر بهذه الطريقة. قد يساعدك تحدي تلك الأفكار بتأكيدات إيجابية."
+    },
+    {
+        "input": "I feel like a failure.",
+        "response_en": "Failing at something doesn't mean you're a failure. We all learn and grow through challenges.",
+        "response_ar": "الفشل في شيء لا يعني أنك فاشل. كلنا نتعلم وننمو من خلال التحديات."
+    },
+    {
+        "input": "I feel like no one understands me.",
+        "response_en": "That must feel really lonely. Talking to someone you trust might help.",
+        "response_ar": "لابد أن ذلك يشعر بالوحدة. قد يساعدك التحدث إلى شخص تثق به."
+    },
+    {
+        "input": "I feel emotionally exhausted.",
+        "response_en": "Taking breaks and practicing self-care can help replenish your energy.",
+        "response_ar": "أخذ فترات راحة وممارسة الرعاية الذاتية قد يساعدان في استعادة طاقتك."
+    },
+    {
+        "input": "I feel overwhelmed with work and responsibilities.",
+        "response_en": "That sounds like a lot. Breaking tasks into smaller steps might make them feel more manageable.",
+        "response_ar": "يبدو أن لديك الكثير. تقسيم المهام إلى خطوات أصغر قد يجعلها أسهل."
+    },
+    {
+        "input": "I experience panic attacks often.",
+        "response_en": "Panic attacks can be really frightening. Have you tried grounding techniques?",
+        "response_ar": "نوبات الهلع قد تكون مخيفة. هل جربت تقنيات التثبيت؟"
+    },
+    {
+        "input": "I keep checking things over and over again.",
+        "response_en": "It sounds like you might be struggling with compulsions. Would you like to talk more about it?",
+        "response_ar": "يبدو أنك تواجه صعوبة مع الأفعال القهرية. هل ترغب في التحدث أكثر عن ذلك؟"
+    },
+    {
+        "input": "I don't enjoy things I used to love.",
+        "response_en": "Losing interest in things can be a sign of burnout or depression. Have you been feeling this way for a while?",
+        "response_ar": "فقدان الاهتمام بالأشياء قد يكون علامة على الإرهاق أو الاكتئاب. هل تشعر بهذا منذ فترة؟"
+    },
+    {
+        "input": "I feel stuck in life.",
+        "response_en": "Feeling stuck can be frustrating. Maybe setting small new goals could help?",
+        "response_ar": "الشعور بالجمود قد يكون محبطًا. ربما يساعدك وضع أهداف صغيرة جديدة؟"
+    },
+    {
+        "input": "I feel guilty all the time.",
+        "response_en": "Excessive guilt can be draining. You deserve kindness, even from yourself.",
+        "response_ar": "الشعور المفرط بالذنب قد يكون مرهقًا. أنت تستحق اللطف، حتى من نفسك."
+    },
+    {
+        "input": "I feel scared of the future.",
+        "response_en": "The future is uncertain for everyone, but focusing on what you can control can ease some of the fear.",
+        "response_ar": "المستقبل غير مؤكد للجميع، لكن التركيز على ما يمكنك التحكم به قد يخفف بعض الخوف."
+    },
+    {
+        "input": "I can’t sleep because of my racing thoughts.",
+        "response_en": "That sounds really tough. A bedtime routine or journaling before sleep might help.",
+        "response_ar": "يبدو ذلك صعبًا. قد يساعدك وضع روتين للنوم أو كتابة يوميات قبل النوم."
+    },
+    {
+        "input": "I feel like I have no purpose.",
+        "response_en": "That’s a heavy feeling. Exploring new hobbies or helping others might bring a sense of meaning.",
+        "response_ar": "هذا شعور ثقيل. قد يساعدك استكشاف هوايات جديدة أو مساعدة الآخرين على إيجاد معنى."
+    },
+    {
+        "input": "I'm struggling with self-harm urges.",
+        "response_en": "I'm really sorry you're feeling this way. You're not alone, and support is available if you need it.",
+        "response_ar": "أنا آسف جدًا لأنك تشعر بهذه الطريقة. لست وحدك، والدعم متاح إذا كنت بحاجة إليه."
+    },
+    {
+        "input": "I feel like I can’t talk to anyone about my problems.",
+        "response_en": "That must feel isolating. Sometimes writing or expressing your feelings creatively can help.",
+        "response_ar": "لابد أن ذلك شعور بالعزلة. في بعض الأحيان قد يساعدك الكتابة أو التعبير عن مشاعرك بطريقة إبداعية."
+    },
+    {
+        "input": "I feel like I’ll never be happy again.",
+        "response_en": "I hear you. Painful moments feel permanent, but emotions do change over time.",
+        "response_ar": "أسمعك. اللحظات المؤلمة قد تبدو دائمة، لكن المشاعر تتغير مع الوقت."
+    },
+    {
+        "input": "I have trouble concentrating because of my anxiety.",
+        "response_en": "That must be difficult. Have you tried mindfulness exercises to stay focused?",
+        "response_ar": "لابد أن ذلك صعب. هل جربت تمارين اليقظة الذهنية للبقاء مركزًا؟"
+    },
+    {
+        "input": "I keep overthinking small things.",
+        "response_en": "Overthinking can be exhausting. Try writing down your thoughts to get some clarity.",
+        "response_ar": "الإفراط في التفكير قد يكون مرهقًا. حاول كتابة أفكارك للحصول على بعض الوضوح."
+    },
+    {
+        "input": "I get nervous around people I don’t know.",
+        "response_en": "Social anxiety can be tough. Practicing small conversations might help you feel more comfortable.",
+        "response_ar": "القلق الاجتماعي قد يكون صعبًا. قد يساعدك التدرب على محادثات صغيرة لتشعر براحة أكثر."
+    },
+    {
+        "input": "I have constant negative thoughts.",
+        "response_en": "I'm sorry you're feeling this way. Challenging those thoughts with positive affirmations might help.",
+        "response_ar": "أنا آسف لأنك تشعر بهذه الطريقة. قد يساعدك تحدي تلك الأفكار بتأكيدات إيجابية."
+    },
+    {
+        "input": "I feel like a failure.",
+        "response_en": "Failing at something doesn't mean you're a failure. We all learn and grow through challenges.",
+        "response_ar": "الفشل في شيء لا يعني أنك فاشل. كلنا نتعلم وننمو من خلال التحديات."
+    },
+    {
+        "input": "I feel like no one understands me.",
+        "response_en": "That must feel really lonely. Talking to someone you trust might help.",
+        "response_ar": "لابد أن ذلك يشعر بالوحدة. قد يساعدك التحدث إلى شخص تثق به."
+    },
+    {
+        "input": "I feel emotionally exhausted.",
+        "response_en": "Taking breaks and practicing self-care can help replenish your energy.",
+        "response_ar": "أخذ فترات راحة وممارسة الرعاية الذاتية قد يساعدان في استعادة طاقتك."
+    },
+    {
+        "input": "I feel overwhelmed with work and responsibilities.",
+        "response_en": "That sounds like a lot. Breaking tasks into smaller steps might make them feel more manageable.",
+        "response_ar": "يبدو أن لديك الكثير. تقسيم المهام إلى خطوات أصغر قد يجعلها أسهل."
+    },
+    {
+        "input": "I experience panic attacks often.",
+        "response_en": "Panic attacks can be really frightening. Have you tried grounding techniques?",
+        "response_ar": "نوبات الهلع قد تكون مخيفة. هل جربت تقنيات التثبيت؟"
+    },
+    {
+        "input": "I keep checking things over and over again.",
+        "response_en": "It sounds like you might be struggling with compulsions. Would you like to talk more about it?",
+        "response_ar": "يبدو أنك تواجه صعوبة مع الأفعال القهرية. هل ترغب في التحدث أكثر عن ذلك؟"
+    },
+    {
+        "input": "I don't enjoy things I used to love.",
+        "response_en": "Losing interest in things can be a sign of burnout or depression. Have you been feeling this way for a while?",
+        "response_ar": "فقدان الاهتمام بالأشياء قد يكون علامة على الإرهاق أو الاكتئاب. هل تشعر بهذا منذ فترة؟"
+    },
+    {
+        "input": "I feel stuck in life.",
+        "response_en": "Feeling stuck can be frustrating. Maybe setting small new goals could help?",
+        "response_ar": "الشعور بالجمود قد يكون محبطًا. ربما يساعدك وضع أهداف صغيرة جديدة؟"
+    },
+    {
+        "input": "I feel guilty all the time.",
+        "response_en": "Excessive guilt can be draining. You deserve kindness, even from yourself.",
+        "response_ar": "الشعور المفرط بالذنب قد يكون مرهقًا. أنت تستحق اللطف، حتى من نفسك."
+    },
+    {
+        "input": "I feel scared of the future.",
+        "response_en": "The future is uncertain for everyone, but focusing on what you can control can ease some of the fear.",
+        "response_ar": "المستقبل غير مؤكد للجميع، لكن التركيز على ما يمكنك التحكم به قد يخفف بعض الخوف."
+    },
+    {
+        "input": "I can’t sleep because of my racing thoughts.",
+        "response_en": "That sounds really tough. A bedtime routine or journaling before sleep might help.",
+        "response_ar": "يبدو ذلك صعبًا. قد يساعدك وضع روتين للنوم أو كتابة يوميات قبل النوم."
+    },
+    {
+        "input": "I feel like I have no purpose.",
+        "response_en": "That’s a heavy feeling. Exploring new hobbies or helping others might bring a sense of meaning.",
+        "response_ar": "هذا شعور ثقيل. قد يساعدك استكشاف هوايات جديدة أو مساعدة الآخرين على إيجاد معنى."
+    },
+    {
+        "input": "I'm struggling with self-harm urges.",
+        "response_en": "I'm really sorry you're feeling this way. You're not alone, and support is available if you need it.",
+        "response_ar": "أنا آسف جدًا لأنك تشعر بهذه الطريقة. لست وحدك، والدعم متاح إذا كنت بحاجة إليه."
+    },
+    {
+        "input": "I feel like I can’t talk to anyone about my problems.",
+        "response_en": "That must feel isolating. Sometimes writing or expressing your feelings creatively can help.",
+        "response_ar": "لابد أن ذلك شعور بالعزلة. في بعض الأحيان قد يساعدك الكتابة أو التعبير عن مشاعرك بطريقة إبداعية."
+    },
+    {
+        "input": "I feel like I’ll never be happy again.",
+        "response_en": "I hear you. Painful moments feel permanent, but emotions do change over time.",
+        "response_ar": "أسمعك. اللحظات المؤلمة قد تبدو دائمة، لكن المشاعر تتغير مع الوقت."
+    },
+    {
+        "input": "I'm overwhelmed with assignments and exams.",
+        "response_en": "It's completely understandable to feel overwhelmed. Try breaking tasks into smaller steps and taking breaks.",
+        "response_ar": "من الطبيعي أن تشعر بالإرهاق. حاول تقسيم المهام إلى خطوات أصغر وأخذ فترات راحة."
+    },
+    {
+        "input": "I feel like I'm not smart enough for university.",
+        "response_en": "Self-doubt is tough, but remember that learning is a journey. Everyone struggles sometimes.",
+        "response_ar": "الشك في الذات صعب، لكن تذكر أن التعلم هو رحلة، والجميع يواجه صعوبات أحيانًا."
+    },
+    {
+        "input": "I’m afraid of failing my exams.",
+        "response_en": "It's okay to feel this way. Try focusing on what you can control, like preparation and self-care.",
+        "response_ar": "لا بأس أن تشعر بهذا. حاول التركيز على ما يمكنك التحكم به، مثل الاستعداد والرعاية الذاتية."
+    },
+    {
+        "input": "I feel isolated and lonely at university.",
+        "response_en": "University life can feel lonely sometimes. Have you tried joining a club or study group?",
+        "response_ar": "يمكن أن تشعر بالعزلة أحيانًا في الجامعة. هل جربت الانضمام إلى نادٍ أو مجموعة دراسية؟"
+    },
+    {
+        "input": "I get nervous when speaking in class.",
+        "response_en": "Public speaking anxiety is common. Practicing in front of a mirror or with friends might help.",
+        "response_ar": "الخوف من التحدث أمام الجمهور أمر شائع. قد يساعدك التمرين أمام المرآة أو مع الأصدقاء."
+    },
+    {
+        "input": "I feel like I don't fit in with my classmates.",
+        "response_en": "It’s okay to feel this way. Building connections takes time, and you’ll find your people.",
+        "response_ar": "لا بأس أن تشعر بذلك. بناء العلاقات يستغرق وقتًا، وستجد الأشخاص المناسبين لك."
+    },
+    {
+        "input": "I have trouble focusing on my studies.",
+        "response_en": "Distractions are tough. Have you tried studying in short, focused sessions?",
+        "response_ar": "المشتتات قد تكون صعبة. هل جربت الدراسة في جلسات قصيرة ومركزة؟"
+    },
+    {
+        "input": "I feel exhausted all the time.",
+        "response_en": "Burnout is real. Make sure to rest, eat well, and take breaks when needed.",
+        "response_ar": "الإرهاق حقيقي. تأكد من الحصول على الراحة، وتناول الطعام جيدًا، وأخذ فترات راحة عند الحاجة."
+    },
+    {
+        "input": "I'm worried about finding a job after graduation.",
+        "response_en": "The future can be uncertain, but gaining experience and networking can help ease worries.",
+        "response_ar": "المستقبل قد يكون غير مؤكد، لكن اكتساب الخبرة وبناء العلاقات يمكن أن يساعد في تقليل القلق."
+    },
+    {
+        "input": "I procrastinate a lot and then feel guilty.",
+        "response_en": "Procrastination happens to everyone. Setting small deadlines can help you stay on track.",
+        "response_ar": "المماطلة تحدث للجميع. يمكن أن يساعدك تحديد مواعيد نهائية صغيرة في البقاء على المسار الصحيح."
+    },
+    {
+        "input": "I feel pressure from my family to succeed.",
+        "response_en": "That pressure can be difficult. Remember, your journey is your own, and progress matters more than perfection.",
+        "response_ar": "هذا الضغط قد يكون صعبًا. تذكر أن رحلتك تخصك، والتقدم أهم من الكمال."
+    },
+    {
+        "input": "I feel nervous before presentations.",
+        "response_en": "Presentation anxiety is normal. Practicing in front of friends or recording yourself can boost confidence.",
+        "response_ar": "القلق قبل العروض التقديمية أمر طبيعي. يمكن أن يساعدك التمرين أمام الأصدقاء أو تسجيل نفسك في زيادة الثقة."
+    },
+    {
+        "input": "I feel like I’m falling behind my classmates.",
+        "response_en": "Everyone learns at their own pace. Comparing yourself to others can be unfair to your progress.",
+        "response_ar": "يتعلم الجميع وفقًا لسرعتهم الخاصة. مقارنة نفسك بالآخرين قد تكون غير عادلة لتقدمك."
+    },
+    {
+        "input": "I have difficulty making friends at university.",
+        "response_en": "Making friends can take time. Try joining activities that interest you to meet like-minded people.",
+        "response_ar": "قد يستغرق تكوين صداقات وقتًا. حاول الانضمام إلى أنشطة تهمك لمقابلة أشخاص يشبهونك."
+    },
+    {
+        "input": "I feel nervous before exams.",
+        "response_en": "Exam nerves are normal. Deep breathing and time management can help reduce stress.",
+        "response_ar": "توتر الامتحانات أمر طبيعي. يمكن أن تساعدك تمارين التنفس العميق وإدارة الوقت في تقليل التوتر."
+    },
+    {
+        "input": "I feel like I'm not doing enough with my life.",
+        "response_en": "That’s a tough feeling. Taking small steps towards your goals can help create a sense of progress.",
+        "response_ar": "هذا شعور صعب. يمكن أن تساعدك الخطوات الصغيرة نحو أهدافك في تحقيق شعور بالتقدم."
+    },
+    {
+        "input": "I can't balance my studies and personal life.",
+        "response_en": "Balancing responsibilities can be hard. Prioritizing tasks and setting boundaries might help.",
+        "response_ar": "تحقيق التوازن بين المسؤوليات قد يكون صعبًا. قد يساعدك تحديد الأولويات ووضع الحدود."
+    },
+    {
+        "input": "I feel homesick and miss my family.",
+        "response_en": "Homesickness is normal. Staying connected with loved ones and making new friends can help.",
+        "response_ar": "الشعور بالحنين إلى الوطن أمر طبيعي. يمكن أن يساعدك البقاء على اتصال مع أحبائك وتكوين صداقات جديدة."
+    },
+    {
+        "input": "I feel like giving up on my studies.",
+        "response_en": "I hear you. Maybe taking a short break and talking to someone can help you regain motivation.",
+        "response_ar": "أسمعك. ربما يساعدك أخذ استراحة قصيرة والتحدث إلى شخص ما على استعادة الحافز."
+    },
+    {
+        "input": "I'm overwhelmed with assignments and exams.",
+        "response_en": "It's completely understandable to feel overwhelmed. Try breaking tasks into smaller steps and taking breaks.",
+        "response_ar": "من الطبيعي أن تشعر بالإرهاق. حاول تقسيم المهام إلى خطوات أصغر وأخذ فترات راحة."
+    },
+    {
+        "input": "I feel like I'm not smart enough for university.",
+        "response_en": "Self-doubt is tough, but remember that learning is a journey. Everyone struggles sometimes.",
+        "response_ar": "الشك في الذات صعب، لكن تذكر أن التعلم هو رحلة، والجميع يواجه صعوبات أحيانًا."
+    },
+    {
+        "input": "I'm struggling with time management.",
+        "response_en": "Time management is a skill that takes practice. Have you tried using a planner or setting timers for tasks?",
+        "response_ar": "إدارة الوقت مهارة تحتاج إلى الممارسة. هل جربت استخدام مخطط أو تعيين مؤقتات للمهام؟"
+    },
+    {
+        "input": "I feel nervous when participating in group discussions.",
+        "response_en": "It's okay to feel nervous. Preparing a few points in advance can boost your confidence.",
+        "response_ar": "لا بأس أن تشعر بالتوتر. قد يساعدك تحضير بعض النقاط مسبقًا في تعزيز ثقتك بنفسك."
+    },
+    {
+        "input": "I feel like I'm constantly being compared to others.",
+        "response_en": "Comparison can be draining. Focus on your own progress and growth.",
+        "response_ar": "المقارنة قد تكون مرهقة. ركز على تقدمك الشخصي ونموك."
+    },
+    {
+        "input": "I have trouble making friends at university.",
+        "response_en": "Making friends takes time. Joining clubs or study groups can help you meet new people.",
+        "response_ar": "تكوين الصداقات يستغرق وقتًا. قد يساعدك الانضمام إلى النوادي أو مجموعات الدراسة في مقابلة أشخاص جدد."
+    },
+    {
+        "input": "I feel like I’m not doing enough.",
+        "response_en": "It's okay to take things one step at a time. Progress, no matter how small, is still progress.",
+        "response_ar": "لا بأس أن تأخذ الأمور خطوة بخطوة. التقدم، مهما كان صغيرًا، لا يزال تقدمًا."
+    },
+    {
+        "input": "I feel overwhelmed with assignments and exams.",
+        "response_en": "It's completely understandable to feel overwhelmed. Try breaking tasks into smaller steps and taking breaks.",
+        "response_ar": "من الطبيعي أن تشعر بالإرهاق. حاول تقسيم المهام إلى خطوات أصغر وأخذ فترات راحة."
+    },
+    {
+        "input": "I struggle with time management.",
+        "response_en": "Managing time can be tough. Creating a study schedule and setting priorities can help.",
+        "response_ar": "إدارة الوقت قد تكون صعبة. يمكن أن يساعدك إنشاء جدول دراسي وتحديد الأولويات."
+    },
+    {
+        "input": "I feel like I'm not good enough for university.",
+        "response_en": "Self-doubt is tough, but remember that learning is a journey. Everyone struggles sometimes.",
+        "response_ar": "الشك في الذات صعب، لكن تذكر أن التعلم هو رحلة، والجميع يواجه صعوبات أحيانًا."
+    },
+    {
+        "input": "I'm afraid of failing my exams.",
+        "response_en": "It's okay to feel this way. Try focusing on what you can control, like preparation and self-care.",
+        "response_ar": "لا بأس أن تشعر بهذا. حاول التركيز على ما يمكنك التحكم به، مثل الاستعداد والرعاية الذاتية."
+    },
+    {
+        "input": "I feel lonely and disconnected at university.",
+        "response_en": "University life can feel lonely sometimes. Have you tried joining a club or study group?",
+        "response_ar": "يمكن أن تشعر بالعزلة أحيانًا في الجامعة. هل جربت الانضمام إلى نادٍ أو مجموعة دراسية؟"
+    },
+    {
+        "input": "I feel pressure from my family to succeed.",
+        "response_en": "That pressure can be difficult. Remember, your journey is your own, and progress matters more than perfection.",
+        "response_ar": "هذا الضغط قد يكون صعبًا. تذكر أن رحلتك تخصك، والتقدم أهم من الكمال."
+    },
+    {
+        "input": "I feel stuck in life and don't know what to do next.",
+        "response_en": "Feeling stuck can be frustrating. Maybe setting small new goals could help?",
+        "response_ar": "الشعور بالجمود قد يكون محبطًا. ربما يساعدك وضع أهداف صغيرة جديدة؟"
+    },
+    {
+        "input": "I can't sleep because of academic stress.",
+        "response_en": "That sounds really tough. A bedtime routine or journaling before sleep might help.",
+        "response_ar": "يبدو ذلك صعبًا. قد يساعدك وضع روتين للنوم أو كتابة يوميات قبل النوم."
+    },
+    {
+        "input": "I feel like giving up on my studies.",
+        "response_en": "I hear you. Maybe taking a short break and talking to someone can help you regain motivation.",
+        "response_ar": "أسمعك. ربما يساعدك أخذ استراحة قصيرة والتحدث إلى شخص ما على استعادة الحافز."
+    }
+]

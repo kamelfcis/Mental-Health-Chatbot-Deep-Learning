@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calm Sphere - Mental Health Support</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .chat-container {
+            height: 60vh;
+            overflow-y: auto;
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .message {
+            margin-bottom: 15px;
+            padding: 12px 18px;
+            border-radius: 20px;
+            max-width: 80%;
+            position: relative;
+        }
+        .user-message {
+            background-color: #007bff;
+            color: white;
+            margin-left: auto;
+            border-bottom-right-radius: 5px;
+        }
+        .bot-message {
+            background-color: #f1f3f5;
+            color: #212529;
+            border-bottom-left-radius: 5px;
+        }
+        .resources-container {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 10px;
+            font-size: 0.9em;
+        }
+        .emotion-tag {
+            display: inline-block;
+            font-size: 0.85em;
+            padding: 4px 10px;
+            border-radius: 15px;
+            margin: 5px;
+            background-color: #6c757d;
+            color: white;
+        }
+        .sentiment-indicator {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+        .confidence-bar {
+            height: 4px;
+            background-color: #e9ecef;
+            border-radius: 2px;
+            margin-top: 5px;
+            overflow: hidden;
+        }
+        .confidence-level {
+            height: 100%;
+            background-color: #28a745;
+            transition: width 0.3s ease;
+        }
+        .input-group {
+            background-color: white;
+            border-radius: 25px;
+            padding: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .form-control {
+            border-radius: 20px !important;
+            border: none !important;
+            padding: 10px 20px !important;
+            background-color: #f8f9fa !important;
+        }
+        .btn-primary {
+            border-radius: 20px !important;
+            padding: 10px 25px !important;
+        }
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+        .typing-indicator {
+            padding: 10px;
+            display: none;
+        }
+        .typing-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #90949c;
+            border-radius: 50%;
+            margin-right: 5px;
+            animation: typing 1s infinite;
+        }
+        @keyframes typing {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Calm Sphere</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="chat-container" id="chatContainer">
+                    <div class="message bot-message">
+                        Hello! I'm here to listen and support you. How are you feeling today? 😊
+                    </div>
+                    <div class="typing-indicator" id="typingIndicator">
+                        <span></span>
+                        <span style="animation-delay: 0.2s"></span>
+                        <span style="animation-delay: 0.4s"></span>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" id="userInput" class="form-control" 
+                           placeholder="Type your message here..." 
+                           aria-label="Type your message">
+                    <button class="btn btn-primary" id="sendButton">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatContainer = document.getElementById('chatContainer');
+        const userInput = document.getElementById('userInput');
+        const sendButton = document.getElementById('sendButton');
+        const typingIndicator = document.getElementById('typingIndicator');
+
+        function showTypingIndicator() {
+            typingIndicator.style.display = 'block';
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function hideTypingIndicator() {
+            typingIndicator.style.display = 'none';
+        }
+
+        function addMessage(message, isUser = false, metadata = null) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+            
+            if (isUser) {
+                messageDiv.textContent = message;
+            } else {
+                // For bot messages, include emotion and sentiment if available
+                let content = message;
+                if (metadata) {
+                    content += `
+                        <div class="emotion-tag">
+                            ${metadata.emotion.emoji} ${metadata.emotion.label} (${metadata.emotion.confidence})
+                        </div>
+                        <div class="sentiment-indicator">
+                            Sentiment: ${metadata.sentiment.description}
+                        </div>
+                        <div class="confidence-bar">
+                            <div class="confidence-level" style="width: ${metadata.emotion.confidence};"></div>
+                        </div>
+                    `;
+                }
+                messageDiv.innerHTML = content;
+            }
+            
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function addResources(resources) {
+            if (resources && resources.length > 0) {
+                const resourcesDiv = document.createElement('div');
+                resourcesDiv.className = 'resources-container';
+                resourcesDiv.innerHTML = `
+                    <h6>📚 Helpful Resources:</h6>
+                    <ul class="list-unstyled">
+                        ${resources.map((resource, index) => `
+                            <li class="mb-2">
+                                <a href="${resource}" target="_blank" class="text-decoration-none">
+                                    Support Resource ${index + 1}
+                                </a>
+                            </li>
+                        `).join('')}
+                    </ul>
+                `;
+                chatContainer.appendChild(resourcesDiv);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }
+        }
+
+        async function sendMessage() {
+            const message = userInput.value.trim();
+            if (message) {
+                // Disable input and button while processing
+                userInput.disabled = true;
+                sendButton.disabled = true;
+                
+                addMessage(message, true);
+                userInput.value = '';
+                
+                showTypingIndicator();
+
+                try {
+                    const response = await fetch('/api/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ message })
+                    });
+
+                    hideTypingIndicator();
+                    
+                    const data = await response.json();
+                    if (response.ok) {
+                        addMessage(data.response, false, data);
+                        if (data.resources) {
+                            addResources(data.resources);
+                        }
+                    } else {
+                        addMessage('Sorry, I encountered an error. Please try again.', false);
+                    }
+                } catch (error) {
+                    hideTypingIndicator();
+                    console.error('Error:', error);
+                    addMessage('Sorry, I encountered an error. Please try again.', false);
+                } finally {
+                    // Re-enable input and button
+                    userInput.disabled = false;
+                    sendButton.disabled = false;
+                    userInput.focus();
+                }
+            }
+        }
+
+        sendButton.addEventListener('click', sendMessage);
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Focus input on page load
+        window.addEventListener('load', () => {
+            userInput.focus();
+        });
+    </script>
+</body>
+</html>
